@@ -4,11 +4,12 @@
 
         <div class="container--img--desc">
 
-             <img src="../assets/house.jpg" alt="">
+            <img src="../assets/house.jpg" alt="">
 
             <div class="descrizioni">
                 
                 <h2>Titolo casa</h2>
+                
                 <span>Recensioni</span>
 
             </div>
@@ -50,7 +51,7 @@
         border-radius: 20px;
         width: 100%;
         height: 500px;
-        margin: 90px auto;
+        margin-top: 100px;
 
         .container--img--desc {
             height: 500px;
@@ -62,11 +63,10 @@
             animation: animate 2s;
 
             img {
-            width: 50%;
-            height: 500px;
-            border-radius: 20px;
-            position: absolute;
-
+                width: 50%;
+                height: 500px;
+                border-radius: 20px;
+                position: absolute;
             }
 
             .descrizioni {
@@ -92,11 +92,11 @@
                 li {
                     margin: 0px 20px;
                 }
+
             }
 
         }
         
-
     }
     
 
@@ -110,6 +110,36 @@
             width: 90%;
         }
 
+    }
+
+     // PARTE RESPONSIVE
+    @media (max-width: 968px) {
+
+        .container {
+
+            margin-top: 150px;
+
+            .container--img--desc {
+
+                display: block;
+                animation: none;
+                width: 90%;
+
+                img { 
+                    width: 90%;
+                    height: 300px;
+                }
+
+                .descrizioni {
+                    width: 50%;
+                    margin-left: 0;
+                    padding: 350px 0px 0px 30px;
+
+                }
+
+            }
+
+        }
 
     }
 
