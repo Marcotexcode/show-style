@@ -21,8 +21,7 @@
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#" @click="ActiveLog = !ActiveLog" >login</a></li>
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#">register</a></li>
 
-        </ul>
-        
+        </ul> 
 
     </div>
 
