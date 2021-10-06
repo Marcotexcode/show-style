@@ -9,6 +9,8 @@
     <BannerMap/>
 
     <ContactForm/>
+    
+    <Footer/>
   
   </div>
 
@@ -22,6 +24,7 @@
   import Show from '@/components/Show.vue'
   import BannerMap from '@/components/BannerMap.vue'
   import ContactForm from '@/components/ContactForm.vue'
+  import Footer from '@/components/Footer.vue'
 
 
 
@@ -32,7 +35,8 @@
       Header,
       Show,
       BannerMap,
-      ContactForm
+      ContactForm,
+      Footer
     }
   }
 
