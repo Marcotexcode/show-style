@@ -1,6 +1,6 @@
 <template>
   
-    <div class="container">
+    <div class="container-show">
 
         <div class="container--img--desc">
 
@@ -29,8 +29,6 @@
 
         </div>
        
-
-
     </div>
 
 </template>
@@ -47,7 +45,7 @@
 
 <style lang="scss" scoped>
 
-    .container {
+    .container-show {
         border-radius: 20px;
         width: 100%;
         height: 500px;
@@ -115,7 +113,7 @@
      // PARTE RESPONSIVE
     @media (max-width: 968px) {
 
-        .container {
+        .container-show {
 
             margin-top: 150px;
 
@@ -135,6 +133,16 @@
                     margin-left: 0;
                     padding: 350px 0px 0px 30px;
 
+                }
+
+            }
+
+            .el-servizi {
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    margin: 50px 0px;
                 }
 
             }
