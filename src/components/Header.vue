@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container-nav">
+    <div class="container-navi">
 
         <div class="container--logo">
 
@@ -69,7 +69,7 @@
 
     @import '@/style/variabili.scss';
 
-    .container-nav {
+    .container-navi {
         z-index: 10;
         width: 100%;
         display: flex;
