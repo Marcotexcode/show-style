@@ -1,6 +1,6 @@
 <template>
   
-    <div class="container">
+    <div class="container-show">
 
         <div class="container--img--desc">
 
@@ -47,7 +47,7 @@
 
 <style lang="scss" scoped>
 
-    .container {
+    .container-show {
         border-radius: 20px;
         width: 100%;
         height: 500px;

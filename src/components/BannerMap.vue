@@ -1,5 +1,8 @@
 <template>
-    <img src="../assets/maps.jpg" class="img-fluid" alt="Responsive image">
+    <div class="container-map">
+      <img src="../assets/maps.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    
 
 </template>
 
@@ -17,10 +20,18 @@
 <style lang="scss" scoped>
 
     @import '@/style/variabili.scss';
-    
-    img{
+
+    .container-map{
+      width: 90%;
+      margin: 0 auto;
+
+      img{
         width: 100%;
         margin-top: 300px;
+      }
+      
     }
+    
+    
 
 </style>
