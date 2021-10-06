@@ -135,7 +135,7 @@
     // PARTE RESPONSIVE
     @media (max-width: 968px) {
 
-        .container-nav {
+        .container-navi {
             display: flex;
             min-height: 121px;
 
