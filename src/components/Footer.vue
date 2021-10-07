@@ -51,6 +51,8 @@
                 <p>
                 Trova facilmente l'appartamento ideale per la tua vacanza. BoolBnB è la soluzione perfetta.
                 </p>
+                <img src="../assets/boolbeb250.png">
+
             </div>
             <!-- Grid column -->
 
@@ -141,5 +143,9 @@ export default {
 </script>
 
 <style scoped>
+
+    img{
+        height: 20%;
+    }
 
 </style>
